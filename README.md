@@ -500,3 +500,5 @@ document.writeln(minus(4, 5)); // -1
 == Exercise 5
 
 Modify solution to Exercise 4 to remove +add+ and +subtract+ from the global scope
+
+
