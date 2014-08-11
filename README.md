@@ -3,6 +3,8 @@ JavaScript
 #Glossary
 ###Literal
 
+https://www.youtube.com/watch?v=Kq4FpMe6cRs
+
 
 ###Primitive
 A fundamental data type provided by a programming language as a building block for programs written in that language. usually characterised by fast efficient operation, close correspondence to hardware primitives, and built-in support for dealing with the data type.
