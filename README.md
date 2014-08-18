@@ -3,6 +3,8 @@ JavaScript
 #Glossary
 ###Literal
 
+http://perfectionkills.com/understanding-delete/#execution_context
+
 https://www.youtube.com/watch?v=Kq4FpMe6cRs
 
 
