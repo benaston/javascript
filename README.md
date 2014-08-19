@@ -7,7 +7,7 @@ http://perfectionkills.com/understanding-delete/#execution_context
 
 https://www.youtube.com/watch?v=Kq4FpMe6cRs
 
-Typeof used for comparing the primitive type of a variable: string, number, bool, null, undefined
+Typeof used for comparing the primitive type of a variable: string, number, bool, null, undefined  (or indeed Object, even though that is not a primitive).
 
 ###Primitive
 A fundamental data type provided by a programming language as a building block for programs written in that language. usually characterised by fast efficient operation, close correspondence to hardware primitives, and built-in support for dealing with the data type.
