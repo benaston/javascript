@@ -8,12 +8,13 @@ Object properties can be enumerated, but they can also have an attribute `[[Enum
 
 Options for enumerating object properties are:
 
-`for...in`: enumerates all properties on the prototype chain of the object, with the `[[Enumerable]]` attribute set.
+`for...in`: enumerates all properties on the prototype chain of the object, *returning their name*, with the `[[Enumerable]]` attribute set.
 
 ```javascript
 for(var x in { a: 'foo' }) { console.log(x); } // 'a'
+```
 
-`for...in`: enumerates all properties on the prototype chain of the object, with the `[[Enumerable]]` attribute set.
+`for...in`: enumerates all properties on the prototype chain of the object, with the `[[Enumerable]]` attribute set. If you only want the properties on that object (and not on the prototype chain), then a `o.hasOwnProperty(propName)` check should be added.
 
 
 
