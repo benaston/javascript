@@ -1,6 +1,22 @@
 JavaScript
 ==========
 #Glossary
+
+###Object Properties and Methods
+
+Object properties can be enumerated, but they can also have an attribute `[[Enumerable]]`. If this is set to false, `for...in` loops will not enumerate the property. In this case you should use the `Object.getOwnProperties` method.
+
+Options for enumerating object properties are:
+
+`for...in`: enumerates all properties on the prototype chain of the object, with the `[[Enumerable]]` attribute set.
+
+```javascript
+for(var x in { a: 'foo' }) { console.log(x); } // 'a'
+
+`for...in`: enumerates all properties on the prototype chain of the object, with the `[[Enumerable]]` attribute set.
+
+
+
 ###Literal
 
 http://perfectionkills.com/understanding-delete/#execution_context
