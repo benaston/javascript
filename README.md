@@ -525,4 +525,20 @@ document.writeln(minus(4, 5)); // -1
 
 Modify solution to Exercise 4 to remove +add+ and +subtract+ from the global scope
 
+##Pseudoclassical Inheritance
+
+With Object.create (because it does not run the constructor function for the prototype).
+
+	function QuidgetCanvas(context) {
+		PageElement.call(this, '.prices-container', context);
+	}
+	
+	QuidgetCanvas.prototype = Object.create(PageElement.prototype, {
+	    constructor: {
+	        configurable: true,
+	        enumerable: true,
+	        value: QuidgetCanvas,
+	        writable: true
+	    }
+	});
 
