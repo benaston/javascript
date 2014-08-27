@@ -542,3 +542,4 @@ With Object.create (because it does not run the constructor function for the pro
 	    }
 	});
 
+Question: what objects are created and how are they related when running the above code.
