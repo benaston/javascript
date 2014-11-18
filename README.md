@@ -543,3 +543,16 @@ With Object.create (because it does not run the constructor function for the pro
 	});
 
 Question: what objects are created and how are they related when running the above code.
+
+
+Mock a resolved promise:
+
+loadUserPreferences: function () {
+				var deferred = q.defer();
+				deferred.resolve({ get: _noop});
+				return deferred.promise;
+			} 
+bu q has a shortcut for returning a resolved promise so can replace above  with 
+loadUserPreferences: function () {
+				return q({ get: _noop});
+			} 
