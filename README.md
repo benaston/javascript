@@ -2,6 +2,8 @@ JavaScript
 ==========
 #Glossary
 
+The problem with inheritance is that people thought it was for code re-use, but in actual fact it is for modelling.
+
 ###Object Properties and Methods
 
 Object properties can be enumerated, but they can also have an attribute `[[Enumerable]]`. If this is set to false, `for...in` loops will not enumerate the property. In this case you should use the `Object.getOwnProperties` method.
