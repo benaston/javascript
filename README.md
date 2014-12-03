@@ -2,6 +2,13 @@ JavaScript
 ==========
 #Glossary
 
+Coercion vs. Casting
+The word conversion refers to either implicitly or explicitly changing a value from one data type to another, e.g. a 16-bit integer to a 32-bit integer.
+
+The word coercion is used to denote an implicit conversion.
+
+The word cast typically refers to an explicit type conversion (as opposed to an implicit conversion), regardless of whether this is a re-interpretation of a bit-pattern or a real conversion.
+
 The problem with inheritance is that people thought it was for code re-use, but in actual fact it is for modelling.
 
 ###Object Properties and Methods
